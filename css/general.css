@@ -1,0 +1,55 @@
+/*Body --------------------------------------------------------------->*/
+body{
+	margin:0;
+	padding:0;
+}
+/*------------------- Header  -------------------*/
+/* Conteneurs  -------------------*/
+header{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	position: fixed;
+	box-shadow: 0px 0px 0.5vw rgba(0 ,0 ,0 ,0.1);
+	margin:0px;
+	justify-content:space-between;
+	align-items:center;
+
+
+}
+
+
+/* Images  -------------------*/
+.imglogo{
+	max-width:15vw;
+	align-self:center;
+
+	margin:1%;
+	
+}
+/* Textes  -------------------*/
+p{
+	font-family:Liberation Sans;
+}
+
+h1, h2, h3, a, li{
+	font-family: 'Italiana', serif;
+}
+.liens a{
+	font-family: 'Italiana', serif;
+	margin-right:3vw;
+	font-size:24px;
+	color:black;
+	text-decoration:none;
+}
+.liens a:hover{
+	color:#94b8c4;
+}
+
+}
+/* Media Queries  -------------------------------------------------*/
+@media(max-width:1200px){
+	header{
+		
+	}
+}

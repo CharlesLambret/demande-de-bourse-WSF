@@ -1,0 +1,164 @@
+/*Colonne Centrale --------------------------------------------------------------->*/
+.colonnecentrale{
+  background-image: url(../images/Page1/fond.jpg);
+}
+/* Textes  -------------------*/
+h1{
+	margin-top:15vh;
+}
+h2{
+	color:white;
+}
+div p{
+	margin-top:10vh;
+}
+/*------------------- Intro  -------------------*/
+/* Conteneurs  -------------------*/
+.IntroEngagements{
+	width:70%;
+	margin-left:15%;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+	background-image:url(../images/Page1/fondintro.png)
+}
+.TxtIntro{
+	width:80%;
+	margin-left:10%;
+	margin-bottom:3%;
+}
+
+/* Textes  -------------------*/
+/* Images  -------------------*/
+.imgIntro{
+	margin-top:15vh;
+	margin-left:35%;
+	width:30%;
+}
+/* Boutons  -------------------*/
+/*------------------- Part 1/Onglets  -------------------*/
+/* Conteneurs  -------------------*/
+#tabs{
+	margin-top:0px;
+	display:flex;
+	justify-content: center;
+	flex-direction:column;
+}
+#tab-1, #tab-2, #tab-3, #tab-4{
+	background-image: url(../images/Page1/fondtabs.png);
+	border-radius:60px;
+}
+#tabs ul{
+	padding:0px;
+	display:flex;
+	justify-content: center;
+	margin-bottom:0px;
+}
+#tabs ul li{
+	margin-right:5px;
+	list-style-type:none;
+	list-style:none;
+}
+#tabs ul li a{
+	display:block;
+	padding:12px;
+	background-image:url(../images/Page1/fondintro.png);
+	color:black;
+	border-radius:20%;
+
+}
+#tabs ul li a:hover{
+	background-image: url(../images/Page1/fondtabs.png);
+	color:white;
+}
+
+#tabs ul li.active a{
+	text-decoration:none;
+}
+#tabs div{
+	padding:15px;
+}
+#tabs{
+	width:80vw;
+	margin-left:10vw;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+
+}
+
+.ligne{
+	display:flex;
+	align-items:center;
+	margin-top:5%;
+	margin-bottom:3%;
+	padding:5%;
+
+}
+.ligne td p, .lignedubas td p{
+	color:white;
+}
+.lignedubas{
+	margin-top:3%;
+}
+
+#tab-1{
+	margin-top:3vh;
+}
+/* Textes  -------------------*/
+#tabs ul li a{
+	text-decoration:none;
+}
+.TxtIntroTab{
+	color:white;
+	margin-top:3vh;
+}
+#onglay{
+	font-size:20px;
+}
+/* Images  -------------------*/
+.Banderole{
+	width:80vw;
+	margin-left:7vw;
+	margin-top:15vh;
+}
+.introtab{
+	max-width:60%;
+}
+.icone{
+	width:15vw;
+}
+#iconed{
+	margin-left:3vw;
+}
+#iconeg{
+	margin-right:3vw;
+}
+
+/* Boutons  -------------------*/
+
+/* Footer --------------------------------------------------------------->*/
+footer{
+
+  width:100%;
+  height:10;
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  background-color: #141414;
+}
+.LogoFooter{
+  max-width:20%;
+}
+.TexteFooter{
+  margin-top:3%;
+  display:flex;
+  flex-direction:column;
+}
+.TexteFooter a{
+	font-size:25px;
+  color:white;
+  text-decoration:none;
+}

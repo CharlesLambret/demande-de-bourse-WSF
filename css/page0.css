@@ -1,0 +1,310 @@
+/*Colonne Centrale --------------------------------------------------------------->*/
+.colonnecentrale{
+  background-image:url(../images/Page0/fond.jpg);
+}
+/*------------------- Intro  -------------------*/
+/* Conteneurs  -------------------*/
+.Introduction{
+  
+  display:flex;
+  flex-direction:column;
+  width:80%;
+  background-image:url(../images/Page0/fondintro.png);
+  margin-left:10%;
+  border-radius:15px;
+  
+}
+.imgIntro{
+  margin-top:5vh;
+  display:flex;
+  justify-content:center;
+}
+.TxtIntro{
+  width:70%;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  margin-left:15%;
+  margin-bottom:3%;
+}
+/* Textes  -------------------*/
+.TxtIntro h1{
+  margin-top:5vh;
+}
+.TxtIntro p{
+  margin-top:3vh;
+}
+/* Images  -------------------*/
+.Banderole{
+  max-height:70vh;
+}
+/* Media Queries  -------------------*/
+@media(max-width:800px){
+  .Introduction{
+    width:100%;
+    margin-left:0px;
+  }
+}
+/* Boutons  -------------------*/
+/*------------------- Part 1/QuiSuisje  -------------------*/
+/* Conteneurs  -------------------*/
+.QuiSuisJe{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-top:10vh;
+}
+.TxtQuiSuisJe{
+  width:40vw;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  margin-left:5vw;
+  background-image:url(../images/Page0/fondintro.png);
+  border-radius:15%;
+}
+
+/* Textes  -------------------*/
+/* Images  -------------------*/
+/* Boutons  -------------------*/
+/*------------------- Part 2/Jesuis  -------------------*/
+/* Conteneurs  -------------------*/
+.Jesuis{
+  width:1000px;
+  background-color: #d3d7e0;
+  display:flex;
+  justify-content:center;
+  margin-left:260px;
+  height:20vh;
+  margin-top:20vh;
+}
+.slideshow-container {
+  max-width: 1000px;
+  
+  margin: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* Textes  -------------------*/
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.TxtQuiSuisJe p{
+  margin:2vw;
+}
+.Jesuis p{
+  color:white;
+  font-size:45px;
+}
+/* Images  -------------------*/
+/* Boutons  -------------------*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/*------------------- Part 3  -------------------*/
+/* Conteneurs  -------------------*/
+.Pourquoi{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  margin-top:10vh;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border-radius: 15px;
+  z-index: 10;
+  background-color: white;
+  width: 85vw;
+  max-width: 85vw;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  margin-top:2%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+  text-align:center;
+  justify-content:center;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.popup{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-top:2vh;
+}
+/* Textes  -------------------*/
+
+/* Images  -------------------*/
+/* Boutons  -------------------*/
+button{
+  border:none;
+  box-shadow: none;
+  background-color:white;
+}
+
+
+
+
+
+.popupimg{
+  max-width:10%;
+  border-radius:10%;
+}
+/* Boutons --------------------------------------------------------------->*/
+#prev, #next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 140px;
+  font-size: 14pt;
+}
+
+.prev {
+  left: 0;
+  color:white;
+}
+
+.next {
+  right: 0;
+  color:white;
+}
+
+a:not([href]):hover {
+  color:white;
+}
+.transition {
+  transition: 0.7s;
+}
+.grosbouton{
+  width:70%;
+  margin-top:8%;
+  border-radius:12%;
+  box-shadow: 0px 0px 2vw rgba(0 ,0 ,0 ,0.2);
+}
+/* Footer --------------------------------------------------------------->*/
+footer{
+  margin-top:7%;
+  width:100%;
+  height:10;
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  background-color: #141414;
+}
+.LogoFooter{
+  max-width:20%;
+}
+.TexteFooter{
+  margin-top:3%;
+  display:flex;
+  flex-direction:column;
+}
+.TexteFooter a{
+  font-size:25px;
+  color:white;
+  text-decoration:none;
+}
+
+@media (max-width: 800px){
+  .Introduction{
+    width:100%;
+    margin-left:0px;
+  }
+}

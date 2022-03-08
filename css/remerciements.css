@@ -1,0 +1,79 @@
+/* Conteneurs  -------------------*/
+.colonnecentrale{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.Colonne{
+	display:flex;
+	flex-direction:column;
+	width:90%;
+	margin-left:5%;
+	margin-bottom:5%;
+
+}
+.Ligne, .Ligneequipe{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	background-color:white;
+	border: 2px solid black;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	border-radius:10%;
+	margin-top:10vh;
+}
+.contenu{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+/* Images  -------------------*/
+.imgdouble{
+	margin:5%;
+	height:40%;
+}
+.imgsolo{
+	margin:5%;
+	height:40%;
+	border-radius:100%;
+}
+.imglongue{
+	width:80%;
+}
+/* Textes  -------------------*/
+.Ligne p{
+	align-self:center;
+	width:45%;
+	margin:5%;
+}
+.Ligneequipe p{
+	width:80%;
+}
+
+#spe{
+	margin-top:10vh;
+}
+/* Footer --------------------------------------------------------------->*/
+footer{
+  margin-top:7%;
+  width:100%;
+  height:10;
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  background-color: #141414;
+}
+.LogoFooter{
+  max-width:20%;
+}
+.TexteFooter{
+  margin-top:3%;
+  width:70%;
+  align-self:center;
+}
+.TexteFooter p{
+  color:white;
+  text-decoration:none;
+}

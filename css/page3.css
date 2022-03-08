@@ -1,0 +1,137 @@
+/*Colonne Centrale --------------------------------------------------------------->*/
+.colonnecentrale{
+  background-image: url(../images/Page3/fond.jpg);
+}
+/* Textes  -------------------*/
+p, h1, h2, a{
+	color:black;
+}
+/*------------------- Intro  -------------------*/
+/* Conteneurs  -------------------*/
+#IntroRealisations{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	flex-direction:column;
+	width:70vw;
+	margin-left:15vw;
+	background-image: url(../images/Page3/fondintro.png);
+}
+/* Textes  -------------------*/
+#IntroRealisations div p{
+	margin-top:3vh;
+}
+/* Images  -------------------*/
+.Banderole{
+	margin-top:15vh;
+}
+/*------------------- Part 1/Créations  -------------------*/
+/* Conteneurs  -------------------*/
+.ligne{
+	display:flex;
+	justify-content: space-around;
+	margin-top:5vh;
+}
+.carre{
+	width:30vw;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	align-items:center;
+	border-radius: 15%;
+}
+#carreTech{
+	background-image: url(../images/Page3/fondtech.png)
+}
+#carreDesign{
+	background-image: url(../images/Page3/fonddesign.png)
+}
+.lignecv{
+	margin-top:5vh;
+	display:flex;
+	justify-content:center;
+}
+#carreCV{
+	background-image: url(../images/Page3/fondcv.png)
+}
+
+.divcv{
+	display:flex;
+	justify-content:center;
+}
+.TxtCarre{
+	width:25vw;
+	margin-bottom:3vh;
+}
+/* Textes  -------------------*/
+#carreDesign p{
+	color:white;
+}
+.h2D{
+	color:white;
+}
+/* Images  -------------------*/
+.imagecarre{
+	width:15vw;
+	padding:3vh;
+
+}
+.ProjetFightClub{
+	width:57vw;
+	align-self:center;
+}
+.ProjetCyberpunk{
+	width:90vw;
+	margin-left:5vw;
+}
+/*------------------- Part 2/Pages dédiées  -------------------*/
+/* Design 1  ------------------------*/
+#fightclub{
+	width:80vw;
+	margin-left:10vw;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	border-radius:5%;
+	border:1px solid black;
+	box-shadow: 0px 0px 2vw rgba(0 ,0 ,0 ,0.5);
+	text-align: center;
+}
+/* Design 2  ------------------------*/
+#bodycyberpunk{
+	background-color:#282625;
+}
+.ProjetCyberpunk{
+	width:90%;
+	margin-left:5%;
+}
+/* Textes  -------------------*/
+
+#bodycyberpunk p{
+	color:white;
+}
+
+
+/* Boutons --------------------------------------------------------------->*/
+/* Footer --------------------------------------------------------------->*/
+footer{
+  width:100%;
+  height:10;
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  background-color: #141414;
+}
+.LogoFooter{
+  max-width:20%;
+}
+.TexteFooter{
+  margin-top:3%;
+  display:flex;
+  flex-direction:column;
+}
+.TexteFooter a{
+	font-size:25px;
+  color:white;
+  text-decoration:none;
+}

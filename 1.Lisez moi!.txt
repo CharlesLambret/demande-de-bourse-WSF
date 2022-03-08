@@ -1,0 +1,12 @@
+Madame, Monsieur
+
+Tout d'abord, merci de l'attention que vous portez à ma candidature. Souhaitant m'orienter en Tech, et plein de bonne volonté, 
+j'ai décidé de réaliser ma lettre de motivation sous forme de site internet. Il se déroule d'une manière classque, la "dernière" page 
+étant celle des remerciements. J'en suis vraiment désolé, mais je n'ai pas eu le temps de développer une version responsive du site 
+étant donné que je mène d'autres projets en parallèle (que vous pourrez découvrir au sein de mon site!). J'espère malgré cela que votre 
+navigation en restera agréable et que ma candidature saura vous convaincre!
+
+Pour commencer la lecture du site, ouvrez simplement la page "index.html" dans un navigateur internet.
+
+Respectueusement,
+Charles Lambre
